@@ -1,0 +1,58 @@
+/* Page Wrapper */
+.page-wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    height: 100vh;          /* Full viewport height */
+    background-color: #f9f9f9; /* Light background for contrast */
+  }
+  
+  /* Primary Button Style */
+  .primary-button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .primary-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  .primary-button:active {
+    background-color: #388e3c;
+    transform: scale(0.98);
+  }
+  
+  /* Info Card Style */
+  .info-card {
+    background-color: #f1f1f1; /* Light gray */
+    border: 2px solid #4caf50;
+    border-radius: 12px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+    margin-top: 20px; /* Spacing between button and info card */
+  }
+  
+  .info-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-20px);
+  }
+  
+  /* Signal Text */
+  .signal-text {
+    margin: 10px 0;
+    color: #4caf50;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
